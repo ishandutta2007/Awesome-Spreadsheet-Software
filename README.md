@@ -46,9 +46,9 @@ Below is the comparative breakdown of leading commercial spreadsheet platforms s
 
 ## 🔓 Open-Source GitHub Repositories
 
-Below are prominent open-source spreadsheet applications, database hybrids, headless formula engines, and web UI components sorted by **GitHub Star Count (Descending)**. Star badges directly link to each repository's stargazers page.
+Below are prominent open-source spreadsheet applications, database hybrids, headless formula engines, and web UI components sorted by **GitHub Stars_Count (Descending)**. Stars_Badges directly link to each repository's stargazers page.
 
-| Repository / Project | GitHub Stars | License | Core Category | Architecture & Key Features |
+| Repository / Project | GitHub_Stars | License | Core Category | Architecture & Key Features |
 | :--- | :--- | :--- | :--- | :--- |
 | 🚀 **[NocoDB](https://github.com/nocodb/nocodb)** | <a href="https://github.com/nocodb/nocodb/stargazers"><img src="https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white" alt="NocoDB Stars"/></a> | AGPL-3.0 | Database Hybrid | **Turn SQL into Spreadsheet**: Connects PostgreSQL, MySQL, SQLite, and SQL Server into smart collaborative tables with REST APIs. |
 | 📦 **[SheetJS / xlsx](https://github.com/SheetJS/sheetjs)** | <a href="https://github.com/SheetJS/sheetjs/stargazers"><img src="https://img.shields.io/github/stars/SheetJS/sheetjs?style=social&color=white" alt="SheetJS Stars"/></a> | Apache-2.0 | Data Engine | **High-Performance Parser**: De facto JavaScript spreadsheet library for parsing, exporting, and manipulating XLS/XLSX/CSV data. |
@@ -92,7 +92,7 @@ Contributions are warmly welcome! Help us keep this spreadsheet software ecosyst
 
 1. 🍴 **Fork the repository**.
 2. 📝 **Add or update entries** in `README.md` maintaining table formats and verified pricing/star data.
-3. 📌 **Include**: Product name, official link, star count badge, license, starting price/free limit, and 1–2 sentence description.
+3. 📌 **Include**: Product name, official link, Stars_Count badge, license, starting price/free limit, and 1–2 sentence description.
 4. 🚀 **Submit a Pull Request** with a brief note explaining the change.
 
 ---
@@ -124,3 +124,12 @@ Thank you for exploring **Awesome Spreadsheet Software**! If this repository has
 ---
 
 <p align="center">Made with ❤️ for analysts, software engineers, and data professionals seeking spreadsheet sovereignty.</p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Spreadsheet-Software&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Spreadsheet-Software_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Spreadsheet-Software_growth.svg">
+  </picture>
+</a>
