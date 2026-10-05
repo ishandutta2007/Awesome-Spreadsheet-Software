@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Glowing Pill Gradient -->
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="pillGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Keyframe Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.05); }
+      }
+      @keyframes barGrow {
+        0%, 100% { height: 40px; y: 220px; }
+        50% { height: 70px; y: 190px; }
+      }
+      @keyframes barGrow2 {
+        0%, 100% { height: 80px; y: 180px; }
+        50% { height: 50px; y: 210px; }
+      }
+      .anim-float1 { animation: floatSlow 8s ease-in-out infinite; transform-origin: center; }
+      .anim-float2 { animation: floatReverse 9s ease-in-out infinite; transform-origin: center; }
+      .anim-pulse { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .anim-bar1 { animation: barGrow 4s ease-in-out infinite; }
+      .anim-bar2 { animation: barGrow2 5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Base Canvas Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)" rx="16"/>
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="400" fill="url(#grid)" rx="16"/>
+
+  <!-- Background Dynamic Glowing Orbs (Behind Text) -->
+  <g class="anim-pulse">
+    <circle cx="150" cy="100" r="180" fill="#10b981" filter="blur(80px)" opacity="0.15"/>
+    <circle cx="1050" cy="300" r="200" fill="#3b82f6" filter="blur(90px)" opacity="0.18"/>
+    <circle cx="900" cy="80" r="150" fill="#8b5cf6" filter="blur(70px)" opacity="0.12"/>
+  </g>
+
+  <!-- Background Animated Graphics Elements (Data Bars, Spreadsheet Mockups) -->
+  <g class="anim-float2" opacity="0.4">
+    <!-- Mini Spreadsheet Card (Background Right) -->
+    <g transform="translate(860, 140)">
+      <rect width="260" height="180" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+      <rect width="260" height="32" rx="10" fill="#1e293b"/>
+      <!-- Header Dots -->
+      <circle cx="20" cy="16" r="4" fill="#ef4444"/>
+      <circle cx="35" cy="16" r="4" fill="#f59e0b"/>
+      <circle cx="50" cy="16" r="4" fill="#10b981"/>
+      <text x="70" y="20" fill="#94a3b8" font-family="sans-serif" font-size="11" font-weight="600">SHEET_DATA.XLSX</text>
+      <!-- Grid Rows -->
+      <line x1="10" y1="65" x2="250" y2="65" stroke="#334155" stroke-width="1"/>
+      <line x1="10" y1="100" x2="250" y2="100" stroke="#334155" stroke-width="1"/>
+      <line x1="10" y1="135" x2="250" y2="135" stroke="#334155" stroke-width="1"/>
+      <!-- Animated Chart Bars inside card -->
+      <rect x="30" y="190" width="24" height="50" rx="3" fill="#10b981" class="anim-bar1"/>
+      <rect x="70" y="170" width="24" height="70" rx="3" fill="#3b82f6" class="anim-bar2"/>
+      <rect x="110" y="200" width="24" height="40" rx="3" fill="#8b5cf6" class="anim-bar1"/>
+      <rect x="150" y="160" width="24" height="80" rx="3" fill="#06b6d4" class="anim-bar2"/>
+      <rect x="190" y="185" width="24" height="55" rx="3" fill="#f59e0b" class="anim-bar1"/>
+    </g>
+  </g>
+
+  <g class="anim-float1" opacity="0.35">
+    <!-- Formula Node Pill Background Left -->
+    <g transform="translate(60, 45)">
+      <rect width="180" height="42" rx="21" fill="url(#pillGrad1)" stroke="#10b981" stroke-width="1"/>
+      <text x="25" y="26" fill="#10b981" font-family="monospace" font-size="14" font-weight="bold">=SUM(A1:Z100)</text>
+    </g>
+    <g transform="translate(920, 45)">
+      <rect width="200" height="42" rx="21" fill="url(#pillGrad3)" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="20" y="26" fill="#c084fc" font-family="monospace" font-size="14" font-weight="bold">=VLOOKUP(ID, 2, FALSE)</text>
+    </g>
+  </g>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="1200" height="5" fill="url(#accentGradient)"/>
+
+  <!-- Foreground Title and Subtitle Block (High Contrast, Crystal Clear) -->
+  <g transform="translate(80, 150)">
+    <!-- Category Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="240" height="30" rx="15" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="20" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1">
+        📊 CURATED ECOSYSTEM 2026
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="72" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5">
+      Awesome Spreadsheet Software
+    </text>
+
+    <!-- Decorative Underline Gradient -->
+    <rect x="0" y="88" width="540" height="4" rx="2" fill="url(#accentGradient)"/>
+
+    <!-- Subtitle -->
+    <text x="0" y="122" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400">
+      Enterprise SaaS Platforms • Open-Source Engines • Tabular Data Editors
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 150)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="130" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="19" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="600">⚡ SaaS Suites</text>
+
+      <!-- Tag 2 -->
+      <rect x="142" y="0" width="160" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="157" y="19" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="600">🔓 Open-Source Repos</text>
+
+      <!-- Tag 3 -->
+      <rect x="314" y="0" width="170" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="329" y="19" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="600">🧮 Formula Engines</text>
+    </g>
+  </g>
+</svg>

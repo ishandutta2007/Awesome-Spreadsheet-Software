@@ -1,247 +1,126 @@
-# Awesome-Spreadsheet-Software
+# 📊 Awesome Spreadsheet Software
 
-## Top Spreadsheet Software Ecosystem
+p<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a> <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta200?label=Follow" /></a>
 
+![Awesome Spreadsheet Software Banner](assets/banner.svg)
 
+## 🚀 Top Spreadsheet Software & Calculation Engine Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> **A comprehensive, SEO-optimized, curated directory of enterprise SaaS spreadsheet platforms, open-source calculation engines, headless formula parsers, and web-embeddable tabular data suites.**
 
-*Focused on Data Analysis, Collaborative Sheets & Open-Source Calculation Engines*  
-
+*Focused on Data Analysis, Real-time Collaborative Sheets, No-Code Databases, and High-Performance Calculation Libraries.*  
 **Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial spreadsheet platforms** and **open-source projects** that handle tabular data, formulas, charts, and collaborative editing. These tools range from enterprise spreadsheet suites to lightweight CSV editors and embedding calculation engines.
-
-
-
-**Examples** include Microsoft Excel, Google Sheets, Airtable, Zoho Sheet, Smartsheet, Apple Numbers, LibreOffice Calc, WPS Spreadsheet, OnlyOffice Spreadsheet, and Quip Spreadsheets (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source spreadsheet ecosystem is anchored by **LibreOffice Calc** and **OnlyOffice Spreadsheet** for full-featured desktop/browser editing, **Grist** and **NocoDB** for modern collaborative databases, and **HyperFormula** and **formulajs** for embeddable calculation engines. **CSV Editor** and **Modern CSV** cover lightweight data editing, while **Univer** and **Luckysheet** deliver Excel-like experiences in the browser. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)**  
-
-  The industry standard spreadsheet with unmatched feature depth: pivot tables, Power Query, VBA macros, Power Pivot, and Copilot AI integration. Available as desktop app, web app, and mobile. Requires Microsoft 365 subscription for full features. **The most widely used data analysis tool in the world**.
-
-
-
-- **[Google Sheets](https://sheets.google.com/)**  
-
-  Free, browser-based spreadsheet with real-time collaboration, version history, and Google Apps Script automation. Strong for teams prioritizing simplicity and accessibility. **The de facto collaborative spreadsheet** — limited offline functionality and advanced features compared to Excel.
-
-
-
-- **[Airtable](https://airtable.com/)**  
-
-  Database-spreadsheet hybrid with relational linking, views (grid, kanban, calendar, gallery), and automations. **The leading no-code database platform** — popular for content calendars, CRM, and project trackers.
-
-
-
-- **[Zoho Sheet](https://www.zoho.com/sheet/)**  
-
-  Cloud spreadsheet with AI-powered Zia for data analysis, pivot tables, and macros. **Strong value for Zoho ecosystem users** — part of Zoho Office Suite.
-
-
-
-- **[Smartsheet](https://www.smartsheet.com/)**  
-
-  Spreadsheet-based work management with Gantt charts, automations, and enterprise governance. **Strong for PMO and operations teams** — more project management than pure spreadsheet.
-
-
-
-- **[Apple Numbers](https://www.apple.com/numbers/)**  
-
-  Apple's spreadsheet with beautiful templates, canvas-based layout, and iCloud collaboration. **Best for macOS/iOS users** wanting native Apple ecosystem integration.
-
-
-
-- **[WPS Spreadsheet](https://www.wps.com/)**  
-
-  Highly compatible alternative to Microsoft Excel with familiar ribbon interface. **Excellent XLSX compatibility** and free tier with ads. Popular in Asia and among budget-conscious users.
-
-
-
-- **[Quip Spreadsheets](https://quip.com/)**  
-
-  Salesforce-owned collaborative spreadsheet with live data integration from Salesforce and Slack. **Best for sales teams and Salesforce users** needing spreadsheet collaboration tied to CRM records.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[LibreOffice Calc](https://github.com/LibreOffice/core)**  
-
-  **The leading open-source desktop spreadsheet**, MPL-2.0 licensed . **Native ODF support with extensive XLSX compatibility** . Features pivot tables, data analysis tools, macros (Basic, Python, JavaScript), conditional formatting, charts, and **Goal Seek** and **Solver** for optimization . Available on Windows, macOS, and Linux. **The de facto open-source Excel alternative** — complete, mature, and backed by The Document Foundation . **Best for desktop spreadsheet work with maximum feature depth** .
-
-
-
-- **[OnlyOffice Spreadsheet](https://github.com/ONLYOFFICE/DocumentServer)**  
-
-  **Open-source collaborative spreadsheet with the highest Excel format compatibility** among open-source alternatives — **OOXML format is the core format, not a conversion** . AGPL-3.0 licensed DocumentServer with Community Edition free for up to 20 concurrent connections . Features real-time co-editing, track changes, comments, pivot tables, conditional formatting, and **cross-platform collaboration** . Integrates with Nextcloud, ownCloud, Seafile, Alfresco, and Moodle . **The leading open-source alternative to Google Sheets for collaborative editing** .
-
-
-
-- **[Grist](https://github.com/gristlabs/grist-core)**  
-
-  **Modern open-source spreadsheet-database hybrid**, Apache-2.0 licensed with 7,000+ GitHub stars . Combines spreadsheet flexibility with **relational database structure** — link tables, create views, and use Python formulas . Features **granular access control**, **self-hostable via Docker**, and **formulas in Python** (not just Excel syntax) . **Best for teams wanting Airtable-like functionality with data ownership** .
-
-
-
-- **[NocoDB](https://github.com/nocodb/nocodb)**  
-
-  **Open-source Airtable alternative**, AGPL-3.0 licensed with 50,000+ GitHub stars . **Turns any SQL database into a smart spreadsheet** — connects to PostgreSQL, MySQL, SQLite, SQL Server, and more . Features grid, gallery, kanban, and form views; **APIs and webhooks**; and **collaboration with granular permissions** . **The most popular open-source Airtable replacement** — ideal for teams already using SQL databases .
-
-
-
-- **[Univer](https://github.com/dream-num/univer)**  
-
-  **Full-featured, open-source spreadsheet and document suite**, Apache-2.0 licensed with 8,000+ GitHub stars . **Excel-like experience in the browser** with formulas, pivot tables, charts, and collaborative editing . **Embeddable SDK** for building spreadsheet functionality into applications . **The most modern open-source spreadsheet for browser embedding** — used by enterprises for custom spreadsheet features .
-
-
-
-- **[Luckysheet](https://github.com/dream-num/Luckysheet)**  
-
-  **Powerful open-source online spreadsheet** with 15,000+ GitHub stars, MIT licensed . **Excel-like interface** with formulas, pivot tables, charts, and conditional formatting . **Best for embedding spreadsheet functionality in web apps** — lightweight and fast . Note: development has slowed in favor of Univer .
-
-
-
-- **[HyperFormula](https://github.com/handsontable/hyperformula)**  
-
-  **Open-source headless spreadsheet formula engine**, GPL-3.0 licensed with 3,000+ GitHub stars . **Implements 400+ Excel functions** with support for cross-sheet references, named expressions, and CRUD operations . **The most complete open-source formula engine** — embeddable in any application . **Best for building custom spreadsheet applications** that need Excel-compatible calculations .
-
-
-
-- **[formulajs](https://github.com/formulajs/formulajs)**  
-
-  **JavaScript implementation of Excel functions**, MIT licensed with 5,000+ GitHub stars . **Lightweight alternative to HyperFormula** — provides 100+ Excel-compatible functions for basic spreadsheet needs . **Best for simple formula needs** in web applications .
-
-
-
-- **[CSV Editor](https://github.com/bpigato/csv-editor)**  
-
-  **Modern CSV editor built with Svelte and Tauri**, MIT licensed . **Cross-platform desktop app** for editing CSV files with a spreadsheet-like interface . Features **large file handling**, **find and replace**, **column operations**, and **keyboard shortcuts** . **Best for developers and data professionals** working with CSV files daily .
-
-
-
-- **[Modern CSV](https://www.moderncsv.com/)**  
-
-  **Feature-rich CSV editor** with a free tier and paid Pro version. **Handles large files** with ease, **column filtering**, **row sorting**, and **export options** . **Best for heavy CSV editing** where spreadsheet software is overkill.
-
-
-
-- **[Rusty Spreadsheet](https://github.com/ricky26/rusty-spreadsheet)**  
-
-  **Learning-oriented spreadsheet implementation in Rust**, MIT licensed . **Demonstrates spreadsheet engine architecture** — cell dependency tracking, formula evaluation, and UI integration . **Best for developers learning spreadsheet internals** .
-
-
-
-- **[TreeSheets](https://github.com/jaap-karssenberg/treesheets)**  
-
-  **Open-source hierarchical spreadsheet** (GPL) for organizing complex data in tree structures. **Unique approach** — nested grids within grids for hierarchical data organization . **Best for mind mapping and data organization** rather than traditional number crunching .
-
-
-
-- **[CSVFileView](https://github.com/desperado/csvfileview)**  
-
-  **Lightweight CSV viewer and editor** for Windows, C++ based . **Handles very large CSV files** with minimal memory footprint . **Best for quick CSV viewing** when full spreadsheet software is not needed .
-
-
-
-- **[Quadratic](https://github.com/quadratichq/quadratic)**  
-
-  **Modern spreadsheet with Python, SQL, and AI** , MIT licensed with 5,000+ GitHub stars . **Infinite canvas**, **code cells alongside spreadsheet cells**, and **real-time collaboration** . **Best for data scientists** wanting spreadsheet flexibility with programming power . Note: MIT licensed, not AGPL like Grist or NocoDB .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Gnumeric** — GNOME's spreadsheet (GPL) with excellent statistical functions and accuracy. **Best for Linux desktop users** wanting a lightweight Excel alternative .
-
-- **Calligra Sheets** — KDE's spreadsheet (GPL) with a familiar interface. Part of the Calligra Suite .
-
-- **SSuite Office Accel** — Free lightweight office suite with spreadsheet, Windows-only.
-
-- **RowShare** — Collaborative table platform (freemium) for data collection and sharing .
-
-- **Teable** — Open-source Airtable alternative with API-first design, MIT licensed (with AGPL for enterprise features).
-
-- **APITable** — Open-source Airtable alternative (AGPL) with real-time collaboration and API access.
-
-- **Baserow** — Open-source no-code database (MIT/AGPL) with Airtable-like functionality.
-
-
-
-**Frameworks for building custom spreadsheet solutions**: Combine **LibreOffice Calc** for desktop spreadsheet work with macros and full feature depth . Use **OnlyOffice Spreadsheet** for collaborative browser-based editing with Excel format compatibility . Deploy **Grist** or **NocoDB** for spreadsheet-database hybrids with Python formulas or SQL backend integration . Integrate **HyperFormula** for embeddable Excel-compatible formula engine in custom applications . Use **CSV Editor** or **Modern CSV** for lightweight data file editing . For browser-embedded spreadsheets, **Univer** provides the most modern SDK . Note that true enterprise spreadsheet software with VBA macros, Power Query ETL, and proprietary Excel file format support (especially pivot caches and complex formulas) remains primarily commercial territory; open-source stacks provide strong editing, collaboration, and formula foundations that require integration for complete Excel parity.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Spreadsheet software handles sensitive business, financial, and personal data. Self-hosted solutions require proper security hardening, access controls, and backup procedures.
-
-- **Format compatibility varies** — LibreOffice Calc and OnlyOffice have strong but not perfect XLSX compatibility. Complex Excel features (VBA macros, Power Query, pivot caches) may not work identically . Always validate complex workbooks before production use.
-
-- **Formula engines (HyperFormula, formulajs) are building blocks** — they implement Excel function logic but not the full spreadsheet UI, file format support, or collaboration features .
-
-- The open-source ecosystem provides strong editing, collaboration, and formula foundations, but **VBA macros, Power Query ETL, and proprietary Excel format features** remain primarily commercial offerings.
-
-
 
 ---
 
+## 📌 Table of Contents
 
+- [📊 SaaS & Hosted Spreadsheet Platforms](#-saas--hosted-spreadsheet-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🏗️ Frameworks & Architecture Recommendations](#%EF%B8%8F-frameworks--architecture-recommendations)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Technical Nuances](#%EF%B8%8F-disclaimer--technical-nuances)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
 
-**Made for analysts, data professionals, and organizations seeking spreadsheet sovereignty.**
+---
 
-Let's make spreadsheet software more open, transparent, and interoperable.
+## 📊 SaaS & Hosted Spreadsheet Platforms
+
+📈 **Market Size & Structure Overview**: The global spreadsheet and office productivity software market is estimated at **$25 – $30 Billion USD (2026)**. The sector is **highly concentrated** (dominated by Microsoft Excel & Google Workspace holding over 85% market share), while specialized database-spreadsheet hybrid niches (like Airtable, Smartsheet, and Zoho Sheet) exhibit **moderate fragmentation** targeting customized business workflow automations.
+
+Below is the comparative breakdown of leading commercial spreadsheet platforms sorted by **Company Valuation / Revenue Size (Descending)**:
+
+| Product Name | Company Valuation / Revenue Size | Starting Tier Price | Free Tier / Trial Limit | Target Use Case & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| 🌐 **[Apple Numbers](https://www.apple.com/numbers/)** | **~$3.4 Trillion** *(Apple Inc.)* | **Included Free** with Apple Hardware | **Free Forever** for all Apple ID holders (5 GB iCloud storage limit) | **macOS / iOS Native Canvas**: Freeform layout canvas, fluid interactive charts, elegant templates, and native iCloud sync. |
+| 🏢 **[Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)** | **~$3.1 Trillion** *(Microsoft Corp.)* | **$6.00 / user / mo** *(MS 365 Business Basic)* | **Free Web Version** *(Excel for Web)* with free Microsoft account (5 GB OneDrive limit) | **Enterprise Industry Standard**: Pivot tables, Power Query ETL, VBA macros, Power Pivot, dynamic arrays, and Copilot AI. |
+| ⚡ **[Google Sheets](https://sheets.google.com/)** | **~$2.1 Trillion** *(Alphabet Inc.)* | **$6.00 / user / mo** *(Google Workspace Starter)* | **Free Forever** (15 GB Google Drive storage per free Google account) | **De Facto Collaborative Sheet**: Instant real-time co-editing, version history, Google Apps Script, smart chips, and web integration. |
+| 💼 **[Quip Spreadsheets](https://quip.com/)** | **~$300 Billion** *(Salesforce, Inc.)* | **$10.00 / user / mo** *(Quip Starter)* | **30-Day Free Trial** (Up to 5 users, full feature access during trial) | **Salesforce CRM Integration**: Embedded live spreadsheet tables within Salesforce records, sales forecasting, and team docs. |
+| 🖥️ **[WPS Spreadsheet](https://www.wps.com/)** | **~$15 Billion** *(Kingsoft Office)* | **$29.99 / year** *(WPS Office Pro)* | **Free Forever** (Ad-supported desktop suite with core XLSX editing & templates) | **High XLSX Compatibility**: Desktop ribbon interface, lightweight memory footprint, tabbed editing, and cost-effective enterprise licensing. |
+| 🗃️ **[Airtable](https://airtable.com/)** | **~$11.7 Billion** *(Formagrid, Inc.)* | **$20.00 / user / mo** *(Team plan, billed annually)* | **Free Forever** (1,000 records/base, 1 GB attachments/base, up to 5 creators) | **No-Code Database Hybrid**: Relational table linking, Kanban / Grid / Calendar views, automated triggers, and REST API generation. |
+| 📊 **[Smartsheet](https://www.smartsheet.com/)** | **~$8.4 Billion** *(Acquired by Blackstone/Vista)* | **$7.00 / user / mo** *(Pro plan, billed annually)* | **Free Forever** (1 user, up to 2 sheets, 500 MB attachments) or **30-Day Trial** | **Enterprise Work Management**: Project portfolio tracking, Gantt charts, automated request approvals, and resource management. |
+| ☁️ **[Zoho Sheet](https://www.zoho.com/sheet/)** | **~$1.2 Billion** *(Zoho Corp Annual Revenue)* | **$3.00 / user / mo** *(Zoho Workplace Standard)* | **Free Forever** (Up to 5 users, 5 GB cloud storage per user) | **Zoho Ecosystem & AI**: Zia AI data cleaning, custom Deluge script automation, pivot tables, and collaborative web editing. |
+
+---
+
+## 🔓 Open-Source GitHub Repositories
+
+Below are prominent open-source spreadsheet applications, database hybrids, headless formula engines, and web UI components sorted by **GitHub Star Count (Descending)**. Star badges directly link to each repository's stargazers page.
+
+| Repository / Project | GitHub Stars | License | Core Category | Architecture & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| 🚀 **[NocoDB](https://github.com/nocodb/nocodb)** | <a href="https://github.com/nocodb/nocodb/stargazers"><img src="https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white" alt="NocoDB Stars"/></a> | AGPL-3.0 | Database Hybrid | **Turn SQL into Spreadsheet**: Connects PostgreSQL, MySQL, SQLite, and SQL Server into smart collaborative tables with REST APIs. |
+| 📦 **[SheetJS / xlsx](https://github.com/SheetJS/sheetjs)** | <a href="https://github.com/SheetJS/sheetjs/stargazers"><img src="https://img.shields.io/github/stars/SheetJS/sheetjs?style=social&color=white" alt="SheetJS Stars"/></a> | Apache-2.0 | Data Engine | **High-Performance Parser**: De facto JavaScript spreadsheet library for parsing, exporting, and manipulating XLS/XLSX/CSV data. |
+| 🧮 **[Excelize](https://github.com/qax-os/excelize)** | <a href="https://github.com/qax-os/excelize/stargazers"><img src="https://img.shields.io/github/stars/qax-os/excelize?style=social&color=white" alt="Excelize Stars"/></a> | BSD-3-Clause | Go Library | **Pure Go Excel Parser**: High-speed Go library for reading and writing Microsoft Excel (XLAM / XLSM / XLSX / XLTM / XLTX) files. |
+| 🎨 **[Luckysheet](https://github.com/dream-num/Luckysheet)** | <a href="https://github.com/dream-num/Luckysheet/stargazers"><img src="https://img.shields.io/github/stars/dream-num/Luckysheet?style=social&color=white" alt="Luckysheet Stars"/></a> | MIT | Web Component | **Browser Spreadsheet Component**: Excel-like web UI with formulas, conditional formatting, pivot tables, and chart rendering. |
+| 📑 **[x-spreadsheet](https://github.com/matsu-s/x-data-spreadsheet)** | <a href="https://github.com/matsu-s/x-data-spreadsheet/stargazers"><img src="https://img.shields.io/github/stars/matsu-s/x-data-spreadsheet?style=social&color=white" alt="x-spreadsheet Stars"/></a> | MIT | Web Component | **Lightweight Canvas Grid**: Zero-dependency JavaScript canvas spreadsheet engine for fast web embedding and custom grid apps. |
+| ⚡ **[Teable](https://github.com/teablio/teable)** | <a href="https://github.com/teablio/teable/stargazers"><img src="https://img.shields.io/github/stars/teablio/teable?style=social&color=white" alt="Teable Stars"/></a> | AGPL-3.0 | Database Hybrid | **Real-Time Postgres Database**: Super-fast no-code database built on PostgreSQL and modern web assembly for ultra-large datasets. |
+| 🌐 **[APITable](https://github.com/apitable/apitable)** | <a href="https://github.com/apitable/apitable/stargazers"><img src="https://img.shields.io/github/stars/apitable/apitable?style=social&color=white" alt="APITable Stars"/></a> | AGPL-3.0 | Database Hybrid | **API-First Visual Database**: Open-source Airtable alternative with real-time collaboration, auto-generated REST APIs, and SDKs. |
+| 💻 **[Univer](https://github.com/dream-num/univer)** | <a href="https://github.com/dream-num/univer/stargazers"><img src="https://img.shields.io/github/stars/dream-num/univer?style=social&color=white" alt="Univer Stars"/></a> | Apache-2.0 | Embeddable SDK | **Full-Stack Spreadsheet SDK**: Enterprise-grade framework for building web spreadsheets, documents, and slides with formulas and canvas UI. |
+| 🐍 **[Grist](https://github.com/gristlabs/grist-core)** | <a href="https://github.com/gristlabs/grist-core/stargazers"><img src="https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white" alt="Grist Stars"/></a> | Apache-2.0 | Database Hybrid | **Python-Powered Spreadsheet**: Relational database hybrid with full Python formulas, custom dashboard layouts, and access control. |
+| 🧩 **[Baserow](https://github.com/bunkum/baserow)** | <a href="https://github.com/bunkum/baserow/stargazers"><img src="https://img.shields.io/github/stars/bunkum/baserow?style=social&color=white" alt="Baserow Stars"/></a> | MIT | Database Hybrid | **No-Code Database Platform**: Modular database builder created with Django and NuxtJS, self-hostable alternative to Airtable. |
+| 📐 **[Quadratic](https://github.com/quadratichq/quadratic)** | <a href="https://github.com/quadratichq/quadratic/stargazers"><img src="https://img.shields.io/github/stars/quadratichq/quadratic?style=social&color=white" alt="Quadratic Stars"/></a> | MIT | Infinite Canvas | **Code-First Infinite Grid**: Spreadsheet combining Python, SQL, and formulas into an infinite web-GL canvas for data science teams. |
+| ⚙️ **[formulajs](https://github.com/formulajs/formulajs)** | <a href="https://github.com/formulajs/formulajs/stargazers"><img src="https://img.shields.io/github/stars/formulajs/formulajs?style=social&color=white" alt="formulajs Stars"/></a> | MIT | Formula Engine | **JavaScript Excel Functions**: Pure JS library implementing 100+ standard Microsoft Excel calculation formulas for web apps. |
+| 🛡️ **[OnlyOffice Spreadsheet](https://github.com/ONLYOFFICE/DocumentServer)** | <a href="https://github.com/ONLYOFFICE/DocumentServer/stargazers"><img src="https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white" alt="OnlyOffice Stars"/></a> | AGPL-3.0 | Office Server | **Native OOXML Collaboration**: Highest Excel format fidelity among open-source suites with real-time co-editing and Nextcloud integration. |
+| 🧮 **[HyperFormula](https://github.com/handsontable/hyperformula)** | <a href="https://github.com/handsontable/hyperformula/stargazers"><img src="https://img.shields.io/github/stars/handsontable/hyperformula?style=social&color=white" alt="HyperFormula Stars"/></a> | GPL-3.0 | Headless Engine | **400+ Excel Function Engine**: Headless spreadsheet formula engine supporting cross-sheet references, matrix math, and CRUD operations. |
+| 🖥️ **[LibreOffice Calc](https://github.com/LibreOffice/core)** | <a href="https://github.com/LibreOffice/core/stargazers"><img src="https://img.shields.io/github/stars/LibreOffice/core?style=social&color=white" alt="LibreOffice Stars"/></a> | MPL-2.0 | Desktop App | **De Facto Open Desktop Suite**: Mature C++ spreadsheet with full ODF/XLSX support, Goal Seek, Solver, pivot tables, and Python/Basic macros. |
+| 🌐 **[EtherCalc](https://github.com/audreyt/ethercalc)** | <a href="https://github.com/audreyt/ethercalc/stargazers"><img src="https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white" alt="EtherCalc Stars"/></a> | CPAL-1.0 | Web Server | **Real-Time Collaborative Server**: Web-based multiplayer spreadsheet server powered by Node.js and Redis (derived from SocialCalc). |
+| ⚛️ **[FortuneSheet](https://github.com/ruilisi/fortune-sheet)** | <a href="https://github.com/ruilisi/fortune-sheet/stargazers"><img src="https://img.shields.io/github/stars/ruilisi/fortune-sheet?style=social&color=white" alt="FortuneSheet Stars"/></a> | MIT | React Component | **React Spreadsheet Grid**: Modernized React component based on Luckysheet code, designed for easy React framework embedding. |
+| 🌳 **[TreeSheets](https://github.com/jaap-karssenberg/treesheets)** | <a href="https://github.com/jaap-karssenberg/treesheets/stargazers"><img src="https://img.shields.io/github/stars/jaap-karssenberg/treesheets?style=social&color=white" alt="TreeSheets Stars"/></a> | Zlib | Desktop App | **Hierarchical Matrix Editor**: Unique grid-within-grid spreadsheet replacement designed for complex nested data, mind mapping, and planning. |
+| 📝 **[CSV Editor](https://github.com/bpigato/csv-editor)** | <a href="https://github.com/bpigato/csv-editor/stargazers"><img src="https://img.shields.io/github/stars/bpigato/csv-editor?style=social&color=white" alt="CSV Editor Stars"/></a> | MIT | Desktop App | **Svelte + Tauri CSV Tool**: Fast cross-platform desktop application for viewing, filtering, and editing large CSV files safely. |
+| 🦀 **[Rusty Spreadsheet](https://github.com/ricky26/rusty-spreadsheet)** | <a href="https://github.com/ricky26/rusty-spreadsheet/stargazers"><img src="https://img.shields.io/github/stars/ricky26/rusty-spreadsheet?style=social&color=white" alt="Rusty Spreadsheet Stars"/></a> | MIT | Rust Engine | **Rust Calculation Architecture**: Open-source educational spreadsheet engine written in Rust focusing on cell dependency graph evaluation. |
+| 🔍 **[CSVFileView](https://github.com/desperado/csvfileview)** | <a href="https://github.com/desperado/csvfileview/stargazers"><img src="https://img.shields.io/github/stars/desperado/csvfileview?style=social&color=white" alt="CSVFileView Stars"/></a> | GPL-3.0 | Desktop Viewer | **Ultra-Fast C++ Viewer**: Windows desktop binary for viewing and filtering multi-gigabyte CSV data files without heavy RAM usage. |
+
+---
+
+## 🏗️ Frameworks & Architecture Recommendations
+
+When architecting a spreadsheet application, select components based on your target integration stack:
+
+1. **Desktop Native & Workstation Editing**: Use **LibreOffice Calc** for full-featured desktop editing with offline macro support, or **OnlyOffice Spreadsheet** for native OOXML compatibility.
+2. **Browser-Embedded Spreadsheets**: Integrate **Univer** (modern TypeScript SDK) or **FortuneSheet** / **Luckysheet** (React/JS web components).
+3. **Headless Calculation Engines**: Deploy **HyperFormula** (400+ Excel functions in Node.js/Browser) or **formulajs** for lightweight formula evaluation without UI overhead.
+4. **No-Code Database Hybrids**: Self-host **NocoDB**, **Grist**, **Teable**, or **Baserow** for relational record management with spreadsheet grid views.
+5. **High-Volume CSV Processing**: Use **SheetJS** (JavaScript) or **Excelize** (Go) for automated file parsing and backend sheet generation.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help us keep this spreadsheet software ecosystem up-to-date and comprehensive.
+
+1. 🍴 **Fork the repository**.
+2. 📝 **Add or update entries** in `README.md` maintaining table formats and verified pricing/star data.
+3. 📌 **Include**: Product name, official link, star count badge, license, starting price/free limit, and 1–2 sentence description.
+4. 🚀 **Submit a Pull Request** with a brief note explaining the change.
+
+---
+
+## ⚠️ Disclaimer & Technical Nuances
+
+- This directory is **community-curated** for educational, comparison, and research purposes.
+- **Security Note**: Spreadsheet software handles sensitive financial and personal datasets. Self-hosted database engines require security hardening, SSL encryption, and proper backup protocols.
+- **Format Compatibility**: LibreOffice Calc and OnlyOffice offer strong XLSX compatibility, but complex proprietary Excel features (VBA macros, Power Query ETL pipelines, dynamic array formulas) may require manual audit.
+- **Headless Formula Engine Scope**: Libraries like **HyperFormula** and **formulajs** compute formula trees but do not provide UI rendering or file format serialization natively.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Spreadsheet-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Spreadsheet-Software&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring **Awesome Spreadsheet Software**! If this repository has helped you discover spreadsheet tools, calculation engines, or dataset tools:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork the repo** to add your own tools or contribute updates.
+- 📢 **Share it** with your colleagues, dev team, and social channels.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+<p align="center">Made with ❤️ for analysts, software engineers, and data professionals seeking spreadsheet sovereignty.</p>
